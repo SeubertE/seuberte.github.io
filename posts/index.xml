@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Eugene Seubert</title>
+        <link>https://seuberte.com/posts/</link>
+        <description>Recent content in Posts on Eugene Seubert</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 18 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://seuberte.com/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Updated Website</title>
+        <link>https://seuberte.com/p/new-site/</link>
+        <pubDate>Sun, 18 Jun 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://seuberte.com/p/new-site/</guid>
+        <description>&lt;img src="https://seuberte.com/p/new-site/cover.png" alt="Featured image of post Updated Website" /&gt;&lt;p&gt;I always wanted a website where I could post cool things I&amp;rsquo;ve done or are working on. Not to mention to also host my resume and be a link to all my other social media accounts. Orginally, I was going to host a blog on Wordpress, but I ended up taking it down. Before now, my website was essentially just a single page that used a badly modified theme, plus a link to download my resume. On this new website I plan to post:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blogs about what I&amp;rsquo;m working on&lt;/strong&gt;: That includes the very blog you&amp;rsquo;re reading now! I&amp;rsquo;ll also include at the end a list of problems or roadblocks I encountered and &lt;em&gt;hopefully&lt;/em&gt; solutions I found.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Guides/Tips/Tricks&lt;/strong&gt;: There probably is already a guide avaliable for whatever I write about, but it doesn&amp;rsquo;t hurt to practice some technical writing!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Projects&lt;/strong&gt;: Any old school projects and future hobby projects, I&amp;rsquo;ll list them here.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;why-hugo&#34;&gt;Why Hugo&lt;/h2&gt;
+&lt;p&gt;I decided to switch from Wordpress to a static site generator for two reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Security&lt;/strong&gt;: Wordpress runs most of the internet and thus is a large target. My site doesn&amp;rsquo;t need to be dynamic anyways, I am not hosting a fourm, massive amounts of content, or anything that needs some kind of backend.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hosting&lt;/strong&gt;: I used to pay for hosting services with TMDHosting in Chicago. At the time, it was a pretty good deal for a domain and a shared hosted Wordpress instance. &lt;em&gt;But&lt;/em&gt; free beats a good deal. With static pages, I can host on Github Pages and if I want to pay (less) money, Netifly. Or I could selfhost it either on my home server or through a VPS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;At first, I started out with Jekyll, as that&amp;rsquo;s what Github Pages recommends. It&amp;rsquo;s pretty barebones and simple. However, I found the documentation to be lacking and some of the things I wanted to accomplish was just too difficult in Jekyll. I read somewhere that Hugo was a good middleground between Wordpress and Jekyll, so I gave it a shot. So far, I don&amp;rsquo;t hate it. The documentation is pretty extensive, albiet it a little too technical, and has quite a few open-source themes that were easily searchable.&lt;/p&gt;
+&lt;h2 id=&#34;why-not-squarespace-google-sites-weebly-wix-medium-etc&#34;&gt;Why not Squarespace, Google Sites, Weebly, Wix, Medium, etc&amp;hellip;&lt;/h2&gt;
+&lt;p&gt;I choose to go with a static site generator hosted on my laptop with minimal to no front end to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Challange myself&lt;/strong&gt;: Learning a new system, how it works, how I can change it, and how I can use it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Portability&lt;/strong&gt;: I&amp;rsquo;m not restricted to one host or service provider, including in any features that one may provide over the other.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Customization&lt;/strong&gt;: I have &lt;em&gt;complete&lt;/em&gt; control over the pages.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cost&lt;/strong&gt;: Can&amp;rsquo;t beat $free.95!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;creating-a-hugo-website&#34;&gt;Creating a Hugo Website&lt;/h2&gt;
+&lt;p&gt;Here are the steps I would take if I were to make this site again.&lt;/p&gt;
+&lt;h3 id=&#34;1-pick-a-theme&#34;&gt;1. Pick a theme&lt;/h3&gt;
+&lt;p&gt;This was one of the reasons I picked Hugo: on &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io&lt;/a&gt; there is an official theme directory that is easily navigatable: &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://themes.gohugo.io/&lt;/a&gt;. I choose the &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/themes/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack theme by Jimmy Cai&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;2-check-if-the-theme-has-a-example-or-starter-template&#34;&gt;2. Check if the theme has a example or starter template&lt;/h3&gt;
+&lt;p&gt;Read the description of the theme on the theme directory, there&amp;rsquo;s a good change there is a starter template &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;like there is for Stack&lt;/a&gt;. Start with that instead of scratch.&lt;/p&gt;
+&lt;h3 id=&#34;3-install-hugo-and-setup-site-directory&#34;&gt;3. Install Hugo and setup site directory&lt;/h3&gt;
+&lt;p&gt;Follow this guide on how to install Hugo for your OS: &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/installation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io/installation/&lt;/a&gt;. The quick start guide is also a pretty quick read: &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/quick-start/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I personally have a directory in my home folder called &lt;code&gt;~/websites&lt;/code&gt;. I didn&amp;rsquo;t realize at the time that I could have just created the website in that directory and didn&amp;rsquo;t need to make a seperate folder like &lt;code&gt;~/websites/2023hugosite&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;In the folder you would like the website&amp;rsquo;s directory to reside (for your workspace, not published, don&amp;rsquo;t put this directory on a websever like &lt;code&gt;/var/www/&lt;/code&gt; on apache), run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new site mysite.com
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd mysite.com
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you are copying a starter template (for example the &lt;code&gt;hugo-theme-stack-starter&lt;/code&gt;), I would clone:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd mysite.com
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git pull https://github.com/CaiJimmy/hugo-theme-stack-starter
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;4-customize-the-website&#34;&gt;4. Customize the website&lt;/h3&gt;
+&lt;p&gt;Configure the website either using the &lt;code&gt;config.toml&lt;/code&gt; or TOML/YAML files in &lt;code&gt;./config/_default&lt;/code&gt;. Specifically make sure to configure &lt;code&gt;baseURL&lt;/code&gt; at least to your site URL (e.g. &lt;code&gt;https://seuberte.com&lt;/code&gt;). Here are all the things you can configure in Hugo: &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/getting-started/configuration/#all-configuration-settings&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io/getting-started/configuration/#all-configuration-settings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Configure the layouts in &lt;code&gt;./layouts&lt;/code&gt; and assets like the CSS &lt;code&gt;./assets&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you have theme specific configurations, it&amp;rsquo;s helpful to look at it&amp;rsquo;s documentation. For the Stack theme, the documentation on it&amp;rsquo;s configuration is a bit skim, but there is an example &lt;code&gt;config.yaml&lt;/code&gt; at &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack/blob/master/exampleSite/config.yaml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack/blob/master/exampleSite/config.yaml&lt;/a&gt; or an example &lt;code&gt;./config/_defaults&lt;/code&gt; at &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter/tree/master/config/_default&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/CaiJimmy/hugo-theme-stack-starter/tree/master/config/_default&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;4-create-and-organize-content&#34;&gt;4. Create and organize content&lt;/h3&gt;
+&lt;p&gt;Create directories in the &lt;code&gt;./content&lt;/code&gt; directory (e.g. &lt;code&gt;mkdir ./content/projects&lt;/code&gt;). There probably is a posts and page directory already.&lt;/p&gt;
+&lt;p&gt;To create a new post, you can use &lt;code&gt;hugo new posts/my-post/index.md&lt;/code&gt; or &lt;code&gt;hugo new posts/my-post.md&lt;/code&gt;. The first creates a &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/page-bundles/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;page bundle&lt;/a&gt; in case you want to add additional page resources (i.e. images, videos, documents, etc&amp;hellip;). Both methods will take &lt;code&gt;./archetypes/posts.md&lt;/code&gt; to create the post. You can customize the archetype, but by default it will probably some of the frontmatter configured for you.&lt;/p&gt;
+&lt;h3 id=&#34;5-deploy-website-on-github-pages&#34;&gt;5. Deploy website (on GitHub pages)&lt;/h3&gt;
+&lt;h2 id=&#34;problemsroadblocks-encountered-and-miscellaneous-lessons-learned&#34;&gt;Problems/Roadblocks Encountered and Miscellaneous Lessons Learned&lt;/h2&gt;
+&lt;h3 id=&#34;toml-vs-yaml&#34;&gt;TOML vs YAML&lt;/h3&gt;
+&lt;p&gt;I thought it would be a good idea to start learning to configure with TOML as it seems Go projects like to use TOML by default. The hugo-theme-stack theme is migrating their main config.yaml to config.toml but it hasn&amp;rsquo;t been released yet. I used an online conversion tool to convert the config.yaml reference file to config.toml:&lt;/p&gt;
+&lt;div class=&#34;highlight scrolling-code&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;baseurl&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://example.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageCode&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en-us&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;theme&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo-theme-stack&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;paginate&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Example Site&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;disqusShortname&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hugo-theme-stack&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DefaultContentLanguage&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;en&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;hasCJKLanguage&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;en&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;English&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Example Site&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Example description&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;zh-cn&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;中文&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;演示站点&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;演示说明&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;languages&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;ar&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languageName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;عربي&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;languagedirection&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;rtl&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;موقع تجريبي&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;description&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;وصف تجريبي&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;permalinks&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;post&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/p/:slug/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;page&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/:slug/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mainSections&lt;/span&gt; = [ &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;post&amp;#34;&lt;/span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;featuredImageField&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;image&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;rssFullContent&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;footer&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;since&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;2_020&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;dateFormat&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;published&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Jan 02, 2006&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;lastUpdated&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Jan 02, 2006 15:04 MST&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;sidebar&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;emoji&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;🍥&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;subtitle&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;sidebar&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;avatar&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;enabled&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;local&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;src&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;img/avatar.png&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;article&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;math&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;toc&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;readingTime&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;article&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;license&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;enabled&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;default&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Licensed under CC BY-NC-SA 4.0&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;enabled&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;provider&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;disqus&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;disqusjs&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;utterances&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;issueTerm&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;pathname&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;remark42&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;vssue&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;autoCreateIssue&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;waline&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;emoji&lt;/span&gt; = [ &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://unpkg.com/@waline/emojis@1.0.1/weibo&amp;#34;&lt;/span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;requiredMeta&lt;/span&gt; = [ &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;name&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;email&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;url&amp;#34;&lt;/span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;waline&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;locale&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#a6e22e&#34;&gt;admin&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Admin&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;twikoo&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;cactus&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;defaultHomeserverUrl&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://matrix.cactus.chat:8448&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;serverName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;cactus.chat&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;siteName&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;giscus&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;reactionsEnabled&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;emitMetadata&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;gitalk&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;comments&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;cusdis&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;search&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;archives&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;limit&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;categories&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;limit&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tag-cloud&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;homepage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;limit&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;widgets&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;page&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;type&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;toc&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;opengraph&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;twitter&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;card&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;summary_large_image&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;defaultImage&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;opengraph&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;enabled&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;local&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;colorScheme&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;toggle&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;default&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;auto&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;imageProcessing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;cover&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;enabled&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;imageProcessing&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;content&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;enabled&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt; = [ ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;GitHub&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/CaiJimmy/hugo-theme-stack&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-github&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;twitter&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Twitter&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://twitter.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-twitter&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;related&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;includeNewer&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;threshold&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;60&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;toLower&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [[&lt;span style=&#34;color:#a6e22e&#34;&gt;related&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;indices&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;100&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [[&lt;span style=&#34;color:#a6e22e&#34;&gt;related&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;indices&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;categories&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;weight&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;200&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;goldmark&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;renderer&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;unsafe&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;tableOfContents&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;endLevel&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ordered&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;startLevel&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;highlight&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;noClasses&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;codeFences&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;guessSyntax&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lineNoStart&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lineNos&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;lineNumbersInTable&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;tabWidth&lt;/span&gt; = &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s what my orginal config.toml looked like:&lt;/p&gt;
+&lt;div class=&#34;highlight scrolling-code&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt; = [ ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;github&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;GitHub&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://github.com/seuberte&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-github&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;linkedin&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;LinkedIn&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.linkedin.com/in/seuberte/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-linkedin&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;discord&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Discord&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://discord.com/users/344712385287684097&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-discord&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;snapchat&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Snapchat&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.snapchat.com/add/seuberte&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-snapchat&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;instagram&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Instagram&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.instagram.com/etrebues/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-instagram&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;facebook&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Facebook&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://www.facebook.com/seuberte&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-facebook&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;steam&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Steam&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://steamcommunity.com/id/etrebues/&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-steam&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[[&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;]]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;identifier&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;spotify&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;name&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Spotify&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;url&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://open.spotify.com/user/seuberte&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;menu&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;social&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#a6e22e&#34;&gt;icon&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;brand-spotify&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;but I kept getting this error:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ERROR 2023/03/10 22:36:56 unable to cast maps.Params{&amp;#34;social&amp;#34;:[]interface {}{map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;github&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;GitHub&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-github&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://github.com/seuberte&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;linkedin&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;LinkedIn&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-linkedin&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://www.linkedin.com/in/seuberte/&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;discord&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Discord&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-discord&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://discord.com/users/344712385287684097&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;snapchat&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Snapchat&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-snapchat&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://www.snapchat.com/add/seuberte&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;instagram&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Instagram&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-instagram&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://www.instagram.com/etrebues/&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;facebook&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Facebook&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-facebook&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://www.facebook.com/seuberte&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;steam&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Steam&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-steam&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://steamcommunity.com/id/etrebues/&amp;#34;}, map[string]interface {}{&amp;#34;identifier&amp;#34;:&amp;#34;spotify&amp;#34;, &amp;#34;name&amp;#34;:&amp;#34;Spotify&amp;#34;, &amp;#34;params&amp;#34;:map[string]interface {}{&amp;#34;icon&amp;#34;:&amp;#34;brand-spotify&amp;#34;}, &amp;#34;url&amp;#34;:&amp;#34;https://open.spotify.com/user/seuberte&amp;#34;}}} of type maps.Params to []interface{}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;I switched the file to back to yaml to see if that would fix the issue.&lt;/p&gt;
+&lt;div class=&#34;highlight scrolling-code&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;main&lt;/span&gt;: []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;menu&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;social&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;github&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;GitHub&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://github.com/seuberte&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-github&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;linkedin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;LinkedIn&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.linkedin.com/in/seuberte/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-linkedin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;discord&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Discord&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://discord.com/users/344712385287684097&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-discord&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;snapchat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Snapchat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.snapchat.com/add/seuberte&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-snapchat&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;instagram&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Instagram&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.instagram.com/etrebues/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-instagram&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;facebook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Facebook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://www.facebook.com/seuberte&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-facebook&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;steam&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Steam&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://steamcommunity.com/id/etrebues/&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-steam&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    - &lt;span style=&#34;color:#f92672&#34;&gt;identifier&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;spotify&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;name&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;Spotify&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;url&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;https://open.spotify.com/user/seuberte&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#f92672&#34;&gt;params&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#f92672&#34;&gt;icon&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;brand-spotify&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I then realized that in the YAML file had the parent &lt;code&gt;menu&lt;/code&gt; which it shouldn&amp;rsquo;t according to Hugo&amp;rsquo;s docs. Sure enough fixing it made the error go away which made me realize that the issue was &lt;code&gt;[[menu.social]]&lt;/code&gt; should have been &lt;code&gt;[[social]]&lt;/code&gt;. Because of that realization, I converted the config back to TOML and have been using it without issue since.&lt;/p&gt;
+&lt;h3 id=&#34;svg-strokecolor-for-main-menu-icons&#34;&gt;SVG Strokecolor for Main Menu Icons&lt;/h3&gt;
+&lt;p&gt;I was setting an menu item for Projects on the sidebar. For some reason the color wasn&amp;rsquo;t matching the rest of the items:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://seuberte.com/p/new-site/images/3c66e1c24e9a08762f583a4a9035a2a1.png&#34;
+	width=&#34;142&#34;
+	height=&#34;182&#34;
+	srcset=&#34;https://seuberte.com/p/new-site/images/3c66e1c24e9a08762f583a4a9035a2a1_hu07fbccb18ae9ff0de1cfa512b45491a5_3952_480x0_resize_box_3.png 480w, https://seuberte.com/p/new-site/images/3c66e1c24e9a08762f583a4a9035a2a1_hu07fbccb18ae9ff0de1cfa512b45491a5_3952_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;3c66e1c24e9a08762f583a4a9035a2a1.png&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;78&#34;
+		data-flex-basis=&#34;187px&#34;
+	
+&gt;
+&lt;img src=&#34;https://seuberte.com/p/new-site/images/239f74a24023554bfca215fc3487cf42.png&#34;
+	width=&#34;850&#34;
+	height=&#34;245&#34;
+	srcset=&#34;https://seuberte.com/p/new-site/images/239f74a24023554bfca215fc3487cf42_hu6c171ae515610542a20c94e5838fdc68_46285_480x0_resize_box_3.png 480w, https://seuberte.com/p/new-site/images/239f74a24023554bfca215fc3487cf42_hu6c171ae515610542a20c94e5838fdc68_46285_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;239f74a24023554bfca215fc3487cf42.png&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;346&#34;
+		data-flex-basis=&#34;832px&#34;
+	
+&gt;
+I eventually compared the SVG that I was using for Projects (&lt;code&gt;tools.svg&lt;/code&gt;) and with the Home SVG (&lt;code&gt;home.svg&lt;/code&gt;). Turns out that &lt;a class=&#34;link&#34; href=&#34;https://tablericons.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;where I was getting the icons&lt;/a&gt; was adding a stroke color to the SVG.&lt;/p&gt;
+&lt;p&gt;tool.svg&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-svg&#34; data-lang=&#34;svg&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;svg&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xmlns=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;icon icon-tabler icon-tabler-tools&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;44&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;height=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;44&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viewBox=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0 0 24 24&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke-width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#2c3e50&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fill=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke-linecap=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;round&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke-linejoin=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;round&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;path&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;M0 0h24v24H0z&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fill=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;path&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;M3 21h4l13 -13a1.5 1.5 0 0 0 -4 -4l-13 13v4&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;line&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x1=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;14.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;y1=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;5.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x2=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;18.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;y2=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;9.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;polyline&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;points=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;12 8 7 3 3 7 8 12&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;line&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x1=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;7&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;y1=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;8&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x2=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;5.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;y2=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;9.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;polyline&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;points=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;16 12 21 17 17 21 12 16&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;line&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x1=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;16&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;y1=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;17&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;x2=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;14.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;y2=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;18.5&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;home.svg&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-svg&#34; data-lang=&#34;svg&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;svg&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;xmlns=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://www.w3.org/2000/svg&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;icon icon-tabler icon-tabler-home&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;24&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;height=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;24&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;viewBox=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;0 0 24 24&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke-width=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;currentColor&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;fill=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke-linecap=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;round&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke-linejoin=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;round&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;path&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;stroke=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;none&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;M0 0h24v24H0z&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;polyline&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;points=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;5 12 3 12 12 3 21 12 19 12&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;path&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;path&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;d=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To fix it, I just changed the color in the SVG to &lt;code&gt;currentColor&lt;/code&gt;. Funny enough, my social icons have the same issue, but the SVG attribute was overriden by the css stylesheet:
+&lt;img src=&#34;https://seuberte.com/img/f608aa3a02e340fc59df26bde1663ee1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;f608aa3a02e340fc59df26bde1663ee1.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;I might make a fix and submit a pull request at some point, but it&amp;rsquo;s not on the top of my priority list.&lt;/p&gt;
+&lt;h3 id=&#34;use-the-starter-dont-just-install-the-theme&#34;&gt;Use the starter, don&amp;rsquo;t just install the theme&lt;/h3&gt;
+&lt;p&gt;I made the mistake of trying to create a new site and configure it with the theme; instead I should have cloned and customized &lt;a class=&#34;link&#34; href=&#34;https://github.com/CaiJimmy/hugo-theme-stack-starter&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;this&lt;/a&gt;. It would have made it 10x easier instead of configuring from scratch and I ended up referencing it anyways.&lt;/p&gt;
+&lt;h3 id=&#34;shortcode-vs-partials&#34;&gt;Shortcode vs. Partials&lt;/h3&gt;
+&lt;p&gt;Basically, the documentation in my opinion didn&amp;rsquo;t make the difference between shortcodes and partials clear enough to me. My understanding now is shortcodes are used in exclusivly content, while partials are used exclusivly in layouts/templates. Source: &lt;a class=&#34;link&#34; href=&#34;https://jpdroege.com/blog/hugo-shortcodes-partials/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://jpdroege.com/blog/hugo-shortcodes-partials/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;layoutstemplates&#34;&gt;Layouts/Templates&lt;/h3&gt;
+&lt;p&gt;I customized the projects section of the website to use a custom tile layout. I thought I could just put a &lt;code&gt;portfolio.html&lt;/code&gt; file in &lt;code&gt;.\layout\&lt;/code&gt; in my site directory, then reference &lt;code&gt;portfolio&lt;/code&gt; in the frontmatter of &lt;code&gt;.\projects\index.md&lt;/code&gt;. &lt;strong&gt;None of that works.&lt;/strong&gt; But it did help me start to really understand Hugo&amp;rsquo;s file structure.&lt;/p&gt;
+&lt;p&gt;Each site has some type of &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/base/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;base layout&lt;/a&gt; in the layout&amp;rsquo;s folder. First it starts with exactly that, &lt;code&gt;./layout/_default/baseof.html&lt;/code&gt; If you&amp;rsquo;re using a theme, it would be in &lt;code&gt;./themes/[THEME]/layouts/_default/baseof.html&lt;/code&gt;. If you do use a theme, just add &lt;code&gt;./themes/[THEME]/&lt;/code&gt; to the beginning of the path for &lt;em&gt;the theme defaults&lt;/em&gt;. Other layouts then extend or override the &lt;code&gt;baseof.html&lt;/code&gt; by overriding the blocks in that base.&lt;/p&gt;
+&lt;p&gt;There are a couple main types of templates in Hugo:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;List Pages&lt;/li&gt;
+&lt;li&gt;Content Pages&lt;/li&gt;
+&lt;li&gt;Taxonomy Pages&lt;/li&gt;
+&lt;li&gt;Term Pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There a couple more different templates, like a template for the homepage, but those four are what I gathered are the four major pages.&lt;/p&gt;
+&lt;p&gt;If you are customizing/modifying an existing layout from a theme, you &lt;em&gt;do not&lt;/em&gt; change the files in &lt;code&gt;./themes/[THEME]&lt;/code&gt; unless you are developing or modfying the theme. Meaning if you are just customizing the layout for &lt;em&gt;your site&lt;/em&gt;, your overrides should be in your site directory i.e. &lt;code&gt;./layouts&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;A content &lt;em&gt;section&lt;/em&gt; is a directory in the &lt;code&gt;./content&lt;/code&gt; directory. For example, for the Project&amp;rsquo;s section of my site, that content is in &lt;code&gt;./content/projects&lt;/code&gt;. Each section will have a list page. By default it is &lt;code&gt;./layouts/_default/list.html&lt;/code&gt;. To override that, I created a layout in &lt;code&gt;./layout/projects/list.html&lt;/code&gt;, created some custom classes, and added some custom CSS.&lt;/p&gt;
+&lt;p&gt;Relevant Documentation from Hugo:
+&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/organization/#path-breakdown-in-hugo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io/content-management/organization/#path-breakdown-in-hugo&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io/templates/&lt;/a&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/templates/lookup-order/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://gohugo.io/templates/lookup-order/&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;scrolling-code-fences&#34;&gt;Scrolling code fences&lt;/h3&gt;
+&lt;p&gt;For long blocks of code (like the configuration files above), nobody wants to scroll that long just to get to the next section of the blog post. One solution is to only post the highlighted code. Another is to make the code scrollable. I think I might try implementing the first one as well, but I chose the second option.&lt;/p&gt;
+&lt;p&gt;To do so, I created a custom CSS class:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    .&lt;span style=&#34;color:#a6e22e&#34;&gt;scrolling-code&lt;/span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;max-height&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;500&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;px&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &lt;span style=&#34;color:#66d9ef&#34;&gt;overflow-y&lt;/span&gt;: &lt;span style=&#34;color:#66d9ef&#34;&gt;auto&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and everytime I needed a code fence that had a lot of code, I did the following at the beginning of the code fence:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;
+```toml {.scrolling-code}
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;start-with-h2--for-headings-in-posts&#34;&gt;Start with H2 (&lt;code&gt;##&lt;/code&gt;) for headings in posts&lt;/h3&gt;
+&lt;p&gt;When I was writing this blog post, the table of contents was all screwy. I consulted the &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/content-management/toc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo documentation&lt;/a&gt; and found that the default configuration is to start the table of contents on the second heading (ignoring the first heading). I assume this is basically so the first heading is the title of the document (which makes sense in a lot of markdown text). I basically had two options:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Increase the heading level of each heading (h1 -&amp;gt; h2, etc&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Change the [configuration(https://gohugo.io/getting-started/configuration-markup/#table-of-contents)] to start the TOC at h1&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The first option actually makes more sense to me and is probably the convention I&amp;rsquo;ll start using from here on out in my markdown or LaTeX files.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>High School Graduation Speech</title>
+        <link>https://seuberte.com/p/high-school-graduation-speech/</link>
+        <pubDate>Sat, 16 Jun 2018 00:00:00 +0000</pubDate>
+        
+        <guid>https://seuberte.com/p/high-school-graduation-speech/</guid>
+        <description>&lt;img src="https://seuberte.com/p/high-school-graduation-speech/cover.jpg" alt="Featured image of post High School Graduation Speech" /&gt;&lt;p&gt;&lt;em&gt;3/16/2023 note: This was hosted orginally on my Wordpress blog and I am transfering it to this new blog. I have also added a content warning an Table of Contents to make it more navigatible.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Below is my graduation speech. The live version is a bit different from the version below. Big shout out to the other speakers, Mr. Merlino, and Ms. Widrig for helping me write this speech.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;::: {.callout-note}
+Content Warning: Alcholoism, Divorce, Family Trauma
+:::&lt;/p&gt;
+&lt;h2 id=&#34;recording&#34;&gt;Recording&lt;/h2&gt;
+&lt;div class=&#34;video-wrapper&#34;&gt;
+    &lt;iframe loading=&#34;lazy&#34; 
+            src=&#34;https://www.youtube.com/embed/Zuwxc4FhbcA&#34; 
+            allowfullscreen 
+            title=&#34;YouTube Video&#34;
+    &gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;start-of-speech-mostly-jokes&#34;&gt;Start of speech, mostly jokes&lt;/h2&gt;
+&lt;p&gt;Oh my, there is a lot of you. I never understood why the prevailing advice for speaking in front of large crowds is to imagine them naked.&lt;/p&gt;
+&lt;p&gt;I really didn’t need to imagine my friends and peers, let alone teachers or family without clothes. That, my friends, is a scaring sight that will forever give me nightmares.&lt;/p&gt;
+&lt;p&gt;This entire week leading up to today, I was curious why I wasn’t nervous about my speech. Ladies and gentlemen, those nerves have just hit, hard.&lt;/p&gt;
+&lt;h2 id=&#34;joke-about-greg-schellenberg-and-greg-schwab&#34;&gt;Joke about Greg Schellenberg and Greg Schwab&lt;/h2&gt;
+&lt;p&gt;Also, while I’m up here, I would like to present a conspiracy theory that I’ve been developing. Looking at you Mr. Dremousis.&lt;/p&gt;
+&lt;p&gt;Greg Schellenberg and Greg Schwab are the same person.&lt;/p&gt;
+&lt;p&gt;Let’s seriously look at the evidence: Both of them are named Greg. Both of them have the “sch” in their last name. Both of them played sports in college. And both of them are the same freakishly tall height. Coincidence, I think not.&lt;/p&gt;
+&lt;h2 id=&#34;running-start-students-and-fires&#34;&gt;Running Start Students and Fires&lt;/h2&gt;
+&lt;p&gt;While I’m here, long time no see running start students! It’s nice to know that you all still exist and joining us for the end here. Seriously, you missed out on the high school experience of fire alarms going off seemingly every week, literal fights over spilled soup, and the making out against lockers. You know who you are. And please, I’m just trying to get to my class guys.&lt;/p&gt;
+&lt;p&gt;Seriously, how many times did we have to walk on the field? I swear I heard Sherke shout one time “this school BETTER be burning down.” Not to mention, I don’t know if any of you have noticed, but our school is mostly made out of brick. Fun fact: I don’t know if you know this about bricks, but bricks are really hard to burn. Believe me I’ve tried.&lt;/p&gt;
+&lt;p&gt;[long pause]&lt;/p&gt;
+&lt;h2 id=&#34;senior-prank&#34;&gt;Senior Prank&lt;/h2&gt;
+&lt;p&gt;Speaking of which, what is wrong with all of you? No senior prank? I’m especially looking at you STEM kids, come on! Last year Seniors let a pigeon terrorize our school, swooping into classrooms, disturbing lectures, and we come up with nothing? I remember turning on the lights after that assembly and everyone just so confused about that darn pidgeon. How did someone even capture a pigeon? How did they sneak it in to an assembly? Why would you want to spend your entire day hiding a pigeon?&lt;/p&gt;
+&lt;h2 id=&#34;grading-deadlines&#34;&gt;Grading Deadlines&lt;/h2&gt;
+&lt;p&gt;Oh, and teachers. Can I share my 476th pet peeve with you? Why is it that deadlines are so stubborn for us, but when it comes to grading assignments, it seems like you can just push that out?&lt;/p&gt;
+&lt;p&gt;“Oh that paper that was done a month ago? I’ll have that in the gradebook by next week.” Next week comes along, and what do I still see in Skyward? A big old ass- strick. Is there some kind of a late penalty for grading?&lt;/p&gt;
+&lt;h2 id=&#34;teachers-gossiping&#34;&gt;Teacher&amp;rsquo;s Gossiping&lt;/h2&gt;
+&lt;p&gt;Okay, okay, I have to give them a little slack, after all they are human like us. They even have the audacity to gossip about us students in their lunch breaks. If how us students gossip about each other can tell us anything about how the teachers gossip…&lt;/p&gt;
+&lt;p&gt;[side glare]&lt;/p&gt;
+&lt;p&gt;Apparently science department is pretty wild over there too, uh oh.&lt;/p&gt;
+&lt;p&gt;Alright, let’s get on with it.&lt;/p&gt;
+&lt;h2 id=&#34;beginning-of-serious-part-of-speech&#34;&gt;Beginning of serious part of speech&lt;/h2&gt;
+&lt;p&gt;Good evening faculty, family, friends, that weird uncle that nobody knows about, and recent high school survivors.&lt;/p&gt;
+&lt;p&gt;My name is Eugene Seubert and I have been sober for… oh wait, hold on, wrong speech.&lt;/p&gt;
+&lt;p&gt;The staff have made a huge mistake of selecting me for speaking to you today, they don’t realize how dangerous it is to give me a microphone.&lt;/p&gt;
+&lt;p&gt;None of them got nervous over there. Look at them all smiling. They still they can think fail me out of their class if I go too crazy. Here’s the thing think, I graduate today. You guys have no power anymore. Looking at you Ellinger.&lt;/p&gt;
+&lt;p&gt;While I was writing this speech, I’ll admit, I didn’t know what to talk about. I was wondering, what did I know that you didn’t? We all already know how we shouldn’t procrastinate on homework until 4 in the morning but let’s be honest.&lt;/p&gt;
+&lt;p&gt;[side glare]&lt;/p&gt;
+&lt;p&gt;Instead of talking about how GPAs don’t matter in the real world, or the cliche advice that “this is only the beginning, not the end,” I think I’ll talk about a lesson I learned from a camp in the middle of nowhere Washington.&lt;/p&gt;
+&lt;h2 id=&#34;mt-triumph&#34;&gt;Mt. Triumph&lt;/h2&gt;
+&lt;p&gt;Last July, I was invited to go to a camp called Mt. Triumph. I know, it’s a pretty self-righteous name.&lt;/p&gt;
+&lt;p&gt;There, we studied things like school climate, Maslow’s hierarchy of needs, and so much more.&lt;/p&gt;
+&lt;p&gt;But the largest lesson I learned there wasn’t how to interact with groups or how to chase a rat out of your cabin and into someones (true story),&lt;/p&gt;
+&lt;p&gt;but the power of vulnerability.&lt;/p&gt;
+&lt;p&gt;Up until I was at that camp, I was a pretty closed person. Throughout middle school and throughout the first two years of high school, I was holding a secret that barely anybody knew about me.&lt;/p&gt;
+&lt;h2 id=&#34;alcholic-father&#34;&gt;Alcholic Father&lt;/h2&gt;
+&lt;p&gt;A secret, that I was so afraid to spill, that I would do anything to keep it. My secret was: my family.&lt;/p&gt;
+&lt;p&gt;See, I grew up in a household with an alcoholic father.&lt;/p&gt;
+&lt;p&gt;I remember moments where my dad would pressure me to not tell my mom he was drinking some nights, saying how “I would destroy this family.” Or how I had to hide the bottle when he was going through one of his binges.&lt;/p&gt;
+&lt;p&gt;I remember once when I took a few days off of middle school to join my family in the family portion of rehab. When I came back, it seemed like all of friends were wondering where I went. My answer? A ski trip. Here’s the thing: I have absolutely no idea how to ski.&lt;/p&gt;
+&lt;p&gt;But I was so worried of the shame and the judgement. Whether it be the “judgment” passed from friends, or the “shame” at family functions, it was a pressure that I wouldn’t wish on any of my enemies.&lt;/p&gt;
+&lt;p&gt;When I was a kid, I had to lie about my dad when he wasn’t around. My mom and I would be at one of those large chinese family dinners and if someone would ask where my dad was, I would have to lie. Not only that, my mom and I would have to coordinate to make sure our lie was the same.&lt;/p&gt;
+&lt;p&gt;Keeping this inside wasn’t healthy. I would never get close to anybody. I knew that I wasn’t the only kid in the world with this secret, but I still felt so alone and isolated. It was controlling me, what I did, and how I would interact with people.&lt;/p&gt;
+&lt;h2 id=&#34;back-to-mt-trimph-and-vaunlerability&#34;&gt;Back to Mt. Trimph and Vaunlerability&lt;/h2&gt;
+&lt;p&gt;Back to the middle of nowhere Washington, where the trees were many and the cell phone service nonexistent. Side note: if you ever have seen a teenager without cell phone coverage, it’s like seeing a fish out of water. Each time they are bored and want to escape, the pull out their phone, and go “oh yeah.” Then, the panic sets, their eyes widen, their heart skips a beat… you get the idea.&lt;/p&gt;
+&lt;p&gt;One day our camp counselor made us sit in a group with those blue desk chairs facing outwards in a circle.&lt;/p&gt;
+&lt;p&gt;The entire camp, the counselors and activities had been poking at us about we were suppressing. What was controlling you? What were the secrets that you thought would bring that judgement and fear? What were the darkest of them that affected your story so much, but nobody knew about? Which defined you, yet, you hid from everyone, including the people close to you?&lt;/p&gt;
+&lt;p&gt;We then wrote these anonymous letters to the group. When I wrote mine, I debated sharing.I was so red faced when I ended writing that letter, thinking that the letter I wrote would identify me, and my greatest fears would come true.&lt;/p&gt;
+&lt;p&gt;That day, that hour, was the most intense I have ever experienced, but also the most relieving I have ever experienced.&lt;/p&gt;
+&lt;p&gt;These were people who I thought were so strong and never had a secret. The people in the hall the always smiles at you, or seems like they have all of their life together. That they they shed light about their own personal demons, or even their own families. Whether that demon was self confidence, their depression, their loss of a loved on, or if their parent too had a substance problem, they let down their walls, and were vulnerable.&lt;/p&gt;
+&lt;p&gt;If it wasn’t for that day, I wouldn’t be out here talking to you. I wouldn’t be able to take the risks I have taken, I wouldn’t have been able to work so well in my ASB groups, and I certainly wouldn’t be so open as I am today, speaking to all of you.&lt;/p&gt;
+&lt;p&gt;It was a relief and a smack in the face that I was not alone. I almost cried in that room, not because of the anxiety of my letter being read, but hearing other people’s stories, stories that I would have never known about them. Things that defined them, but nobody ever knew.&lt;/p&gt;
+&lt;p&gt;After that, we all looked at each other and took a walk. Nobody judged and nobody shamed. That fear that if I shared what I have been holding back, that everybody would look down from a high perch to me was a myth. Instead, we were all there for eachother. We all realized that we all hid something, but there was no reason to. That everybody has their challenges in life, and what matters is that we help each other through them.&lt;/p&gt;
+&lt;h2 id=&#34;vulnerability&#34;&gt;Vulnerability&lt;/h2&gt;
+&lt;p&gt;It was also no coincidence that we learned how to be vulnerable at a leadership camp. People often think that vulnerability is a bad thing — that spilling your secret shows weakness. That crying in front of a crowd is somehow cowardly.&lt;/p&gt;
+&lt;p&gt;But all of that is wrong. It takes guts, bravery, and courage, to take the risk and break down those walls. And once you stop letting your secrets control you, you can start controlling them.&lt;/p&gt;
+&lt;p&gt;Let’s take the #MeToo movement for example. If it wasn’t for women sharing their stories, something that they kept a secret inside them for so long, something that they knew society might judge them for, and share with a simple hashtag, corrupt men in high power would still be there. The Harvey Weinstein and the Matt Lauer’s of the world were brought down because a few women started to say #MeToo, then a few more said it, and soon we saw a global movement. This shows that vulnerability is necessary, that it powers change, and using it makes you a leader, not somebody who is weak.&lt;/p&gt;
+&lt;h2 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;If today, you are hiding something that defines you, I beg of you, demolish those walls down. Take control of what is controlling you. And use it for good. Now, I’m not saying to do it right this moment, but find the time to be vulnerable to that significant other, that family member, or those friends, to tell them what your story is. If I can do it infront of all 3000 of you, you can do it too.&lt;/p&gt;
+&lt;p&gt;So class of 2018, be brave, be bold, be courageous, be the best you can be, and most of all, be vulnerable.&lt;/p&gt;
+&lt;p&gt;Thank you, have a goodnight, congratulations class of 2018. Go hawks.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
